@@ -16,7 +16,7 @@ Email ID:- vagrawal@lakeheadu.ca
 4. Methods 
 5. Results and Discussion
 6. Conclusion
-7. Refrences
+7. References
 8. Acknowledgment 
 
 ## Abstract
