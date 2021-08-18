@@ -31,7 +31,8 @@ When someone is transmitting data over a network, there are many threats to the 
 
 #### Goals of Cryptography
 
-Following   are   some   goals   ofcryptography:
+Following are some goals of cryptography:
+
 •Data Integrity
 
 •Confidentiality
@@ -55,7 +56,7 @@ Cryptography is classified into two ways :
 
 2)Asymmetric key cryptography : In this system, a pair of keys is used. A public key and a private key are used for encryption and decryption respectively. Even if an intruder knows the public key he cannot decode the information without the private key. RSA, DSS,DHA are examples of asymmetric key cryptography.
 
-## Motivation and goals
+## Motivation and Goals
 
 Security mechanisms necessitate the requirement of a specific method for encryption and decryption, as well as for managing the sub-keys that will be used to generate cipher text from plaintext. Because the security of algorithms is directly proportional to the length of the secret key, the longer the key, the more secure the technique.If recovering the plaintext is difficult when there is a large amount of ciphertext available, an algorithm is considered to be stronger\cite{b15}.Now there are many symmetric cryptographic algorithms available so it has become difficult to choose the best one. Hence, this survey compares three different symmetric cryptographic algorithms namely AES (Advanced Encryption Standard), DES(Data Encryption Standard) and 3DES(Triple Data Encryption Standard). The comparison analysis is based on different metrics like key size, block size, performance time, number of rounds, attacks, structure of algorithm, etc. The final results are based on qualitative research done on the basis of previous works done by various researchers.
 
