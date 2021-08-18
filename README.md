@@ -29,7 +29,7 @@ When someone is transmitting data over a network, there are many threats to the 
 
 <img width="500" alt="Screenshot 2021-08-17 at 10 50 03 PM" src="https://user-images.githubusercontent.com/84442255/129941483-c90170f5-98fe-4c5b-b6dd-4e5cf1633c55.png">
 
-### Goals of Cryptography
+#### Goals of Cryptography
 
 Following   are   some   goals   ofcryptography:
 •Data Integrity
@@ -45,7 +45,7 @@ Following   are   some   goals   ofcryptography:
 <img width="400"  src="https://user-images.githubusercontent.com/84442255/129941747-c23724bc-6938-40cd-88b2-0af481963778.png">
 
 
-### Classification of Cryptography :
+#### Classification of Cryptography :
 
 Cryptography is classified into two ways :
 
@@ -64,21 +64,21 @@ Security mechanisms necessitate the requirement of a specific method for encrypt
 
 This qualitative survey follows method of collecting information about the three (AES,DES and 3DES) symmetric algorithms and performing comparative analysis to provide the best symmetric algorithm.First, this section discusses about the structure and functions of each of the three (AES,DES and 3DES) symmetric algorithms. Second, comparison metrics that are considered for this survey are also explained in detail.
 
-### DES-Data Encryption Standard
+#### DES-Data Encryption Standard
 
 DES is the first symmetric block cipher algorithm recommended by National Institute of Standards and Technology (NIST) in 1977. Only one key is used for both encryption and decryption. As shown in Fig 4, it is 64 bit block cipher so it can encrypt 64 bits of data at a time. Out of 64 bits only 56 bits are used to make independent key and the other 8 bits are used as parity bits for detecting errors. There are total 16 round for each processing. It follows Feistel structure that makes sure that both encryption and decryption have similar processes but there is only one difference that for decryption the keys are applied in a reverse order. The main limitation of this algorithm its is more likely to have brute force attack.
 
 <img width="400"  src="https://user-images.githubusercontent.com/84442255/129943351-8dee8015-8547-48df-9a4b-ba6997f3a519.png">
 
 
-### 3DES- Triple Data Encryption Standard
+#### 3DES- Triple Data Encryption Standard
 
 3DES is a symmetric block cipher and was published in 1995 to overcome the attacks faced by DES. In Fig 6, it is seen that triple data encryption standard applies DES algorithm three times to each block of data which means there are total 48 rounds in 3DES algorithm. It uses three keys each of 56 bits(excluding 8 bits of parity). There are three keying options available. In first, all the three keys are treated as independent with 3*56=168 bits. In second, two keys are treated as independent with key length 2*56=112 bits. In third, all the three keys are treated as identical. It is more secure than DES but it requires three times more computation power than DES.
 
 <img width="400"  src="https://user-images.githubusercontent.com/84442255/129943383-f07aa124-6568-49f2-9000-1f356635ca65.png">
 
 
-### AES- Advanced Encryption Standard
+#### AES- Advanced Encryption Standard
 
 AES is symmetric and block cipher algorithm. National Institute of Standards and Technology (NIST) published AES in 1998 and was developed by two belgian Vincent Rijmen and Joan Daemen. AES uses 128 bit block size for encryption and decryption as shown in Fig 7. Key size depends on the number of rounds. Different key size are 128 bits(10 rounds), 192 bits(12 rounds) or 256 bits(14 rounds). Each round consists of 4 basic operations known as Sub-byte(), Shift-row(), Mix-column() and Add-roundkey().AES is widely used for small devices and is less power consuming.
 
@@ -93,7 +93,7 @@ In the table below, a comparative study is presented of three symmetric encrypti
 
 The block size for DES and 3DES is same while AES uses 128 bits.
 
-The security of any algorithm is highly based on the length of key being used. In the above Fig 8, it is clear that the key size of AES algorithm is high and that of DES is lesser. Hence it can be said that security of AES is far better than the other two algorithms.
+The security of any algorithm is highly based on the length of key being used. In the table, it is clear that the key size of AES algorithm is high and that of DES is lesser. Hence it can be said that security of AES is far better than the other two algorithms.
 
 DES is the first symmetric encryption algorithm in 1974 by IBM and in 1976 by National Institute of Standard and Technology(NIST){\cite{b12}}. To overcome the drawbacks and attacks of DES, 3DES was developed in 1978 by IBM and in 1995 by NIST. In 1998, NIST developed a new symmetric encryption algorithm called AES.
 
@@ -103,28 +103,24 @@ Every algorithm is vulnerable to one or other attack. Brute force attack is the 
 
 In comparison to prior implementations, the Advanced Data Encryption standard offers a more secure and robust encryption approach.Triple DES is more secure than previous DES implementations, but it uses a lot of CPU power.In terms of performance, AES is shown to be superior to DES and 3DES.
 
-According to the table in Fig 8, the Advanced encryption standard is adequate for providing security and managing computation power; however, triple DES is more secure because it uses three keys for the same operation, but the compute power is relatively large. The survey depicts that the efficiency of AES is highest as compared to DES and 3DES.
+According to the table, the Advanced encryption standard is adequate for providing security and managing computation power; however, triple DES is more secure because it uses three keys for the same operation, but the compute power is relatively large. The survey depicts that the efficiency of AES is highest as compared to DES and 3DES.
 
 
 ## Conclusion
 
-This paper provided a detailed study on cryptography and some symmetric encryption algorithms such as AES, DES and 3DES. With the rapid increase in the usage of internet and network, it has become necessary to secure the data or information transmitted over the network. Different encryption methods are used to provide security to data and network. In this paper, a discussion on cryptography and symmetric encryption algorithms has been done. Also, a comparison analysis is performed on three different symmetric encryption algorithms (AES, DES, 3DES). It is observed that many researchers have repeatedly analysed and studied symmetric encryption algorithms. If the key size increases ,the algorithms are more optimize for encryption. Every algorithm has its own features which might be suitable for various applications and also has its own advantages and disadvantages. According to the literature survey and research on comparative study, it is concluded that AES is the best one in terms of better performance, speed, time, key length, rounds and block size as compared to DES and 3DES.
+This research provided a detailed study on cryptography and some symmetric encryption algorithms such as AES, DES and 3DES. With the rapid increase in the usage of internet and network, it has become necessary to secure the data or information transmitted over the network. Different encryption methods are used to provide security to data and network. In this research, a discussion on cryptography and symmetric encryption algorithms has been done. Also, a comparison analysis is performed on three different symmetric encryption algorithms (AES, DES, 3DES). It is observed that many researchers have repeatedly analysed and studied symmetric encryption algorithms. If the key size increases ,the algorithms are more optimize for encryption. Every algorithm has its own features which might be suitable for various applications and also has its own advantages and disadvantages. According to the literature survey and research on comparative study, it is concluded that AES is the best one in terms of better performance, speed, time, key length, rounds and block size as compared to DES and 3DES.
 
 ## References 
 
-[1] https://www.usenix.org/system/files/conference/woot14/woot14-ghena.pdf
+[1] https://www.ijser.in/archives/v2i11/SjIwMTM0MDM=.pdf
 
-[2] https://journals.sagepub.com/doi/abs/10.1177/0361198118756885
+[2] https://www.researchgate.net/publication/317615794_Advanced_Encryption_Standard_AES_Algorithm_to_Encrypt_and_Decrypt_Data
 
-[3] https://www.ilxor.com/ILX/ThreadSelectedControllerServlet?action=showall&boardid=60&threadid=68849
+[3] https://ejmcm.com/article_5157_596c1024e1fb468438347e8ab5322db2.pdf
 
-[4] https://www.ntcip.org/
+[4] https://www.researchgate.net/publication/266872600_A_Comparative_Survey_on_Symmetric_Key_Encryption_Techniques
 
-[5] https://www.researchgate.net/publication/322128184_Estimating_safety_effects_of_adaptive_signal_control_technology_using_the_Empirical_Bayes_method
-
-[6] https://ops.fhwa.dot.gov/publications/fhwahop14016/ch3.htm
-
-
+[5] https://academic.csuohio.edu/yuc/security/Chapter_06_Data_Encription_Standard.pdf
 
 
 ##  Acknowledgment
