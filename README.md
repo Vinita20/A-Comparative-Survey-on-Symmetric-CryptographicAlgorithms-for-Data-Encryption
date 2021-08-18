@@ -25,7 +25,7 @@ In this new emerging world of internet, it has become important to secure the da
   
 ## Introduction
 
-When someone is transmitting data over a network, there are many threats to the security and privacy of data by hackers. Billions of people around the world are using a mechanism called cryptography to secure their data or information transmitted over the network. Cryptography is one such way to protect the confidentiality  and integrity of the data. It is a greek word divided into two parts i.e. ‘crypto’ means secret and ‘graphy’ means message{\cite{b1}}. This mechanism allows the data to be sent over a network in a format that is not readable by the hacker or intruder. This format can be read only by the sender and the authorized receiver. There are two concepts of cryptography namely encryption and decryption. The data is encrypted in an unreadable format known as cipher text to protect from intruders and with the help of a key an authorized receiver can obtain the data or information by decrypting the cipher text into plain text.
+When someone is transmitting data over a network, there are many threats to the security and privacy of data by hackers. Billions of people around the world are using a mechanism called cryptography to secure their data or information transmitted over the network. Cryptography is one such way to protect the confidentiality  and integrity of the data. It is a greek word divided into two parts i.e. ‘crypto’ means secret and ‘graphy’ means message. This mechanism allows the data to be sent over a network in a format that is not readable by the hacker or intruder. This format can be read only by the sender and the authorized receiver. There are two concepts of cryptography namely encryption and decryption. The data is encrypted in an unreadable format known as cipher text to protect from intruders and with the help of a key an authorized receiver can obtain the data or information by decrypting the cipher text into plain text.
 
 <img width="500" alt="Screenshot 2021-08-17 at 10 50 03 PM" src="https://user-images.githubusercontent.com/84442255/129941483-c90170f5-98fe-4c5b-b6dd-4e5cf1633c55.png">
 
@@ -67,21 +67,21 @@ This qualitative survey follows method of collecting information about the three
 
 #### DES-Data Encryption Standard
 
-DES is the first symmetric block cipher algorithm recommended by National Institute of Standards and Technology (NIST) in 1977. Only one key is used for both encryption and decryption. As shown in Fig 4, it is 64 bit block cipher so it can encrypt 64 bits of data at a time. Out of 64 bits only 56 bits are used to make independent key and the other 8 bits are used as parity bits for detecting errors. There are total 16 round for each processing. It follows Feistel structure that makes sure that both encryption and decryption have similar processes but there is only one difference that for decryption the keys are applied in a reverse order. The main limitation of this algorithm its is more likely to have brute force attack.
+DES is the first symmetric block cipher algorithm recommended by National Institute of Standards and Technology (NIST) in 1977. Only one key is used for both encryption and decryption. It is 64 bit block cipher so it can encrypt 64 bits of data at a time. Out of 64 bits only 56 bits are used to make independent key and the other 8 bits are used as parity bits for detecting errors. There are total 16 round for each processing. It follows Feistel structure that makes sure that both encryption and decryption have similar processes but there is only one difference that for decryption the keys are applied in a reverse order. The main limitation of this algorithm its is more likely to have brute force attack.
 
 <img width="400"  src="https://user-images.githubusercontent.com/84442255/129943351-8dee8015-8547-48df-9a4b-ba6997f3a519.png">
 
 
 #### 3DES- Triple Data Encryption Standard
 
-3DES is a symmetric block cipher and was published in 1995 to overcome the attacks faced by DES. In Fig 6, it is seen that triple data encryption standard applies DES algorithm three times to each block of data which means there are total 48 rounds in 3DES algorithm. It uses three keys each of 56 bits(excluding 8 bits of parity). There are three keying options available. In first, all the three keys are treated as independent with 3*56=168 bits. In second, two keys are treated as independent with key length 2*56=112 bits. In third, all the three keys are treated as identical. It is more secure than DES but it requires three times more computation power than DES.
+3DES is a symmetric block cipher and was published in 1995 to overcome the attacks faced by DES. It is seen that triple data encryption standard applies DES algorithm three times to each block of data which means there are total 48 rounds in 3DES algorithm. It uses three keys each of 56 bits(excluding 8 bits of parity). There are three keying options available. In first, all the three keys are treated as independent with 3*56=168 bits. In second, two keys are treated as independent with key length 2*56=112 bits. In third, all the three keys are treated as identical. It is more secure than DES but it requires three times more computation power than DES.
 
 <img width="400"  src="https://user-images.githubusercontent.com/84442255/129943383-f07aa124-6568-49f2-9000-1f356635ca65.png">
 
 
 #### AES- Advanced Encryption Standard
 
-AES is symmetric and block cipher algorithm. National Institute of Standards and Technology (NIST) published AES in 1998 and was developed by two belgian Vincent Rijmen and Joan Daemen. AES uses 128 bit block size for encryption and decryption as shown in Fig 7. Key size depends on the number of rounds. Different key size are 128 bits(10 rounds), 192 bits(12 rounds) or 256 bits(14 rounds). Each round consists of 4 basic operations known as Sub-byte(), Shift-row(), Mix-column() and Add-roundkey().AES is widely used for small devices and is less power consuming.
+AES is symmetric and block cipher algorithm. National Institute of Standards and Technology (NIST) published AES in 1998 and was developed by two belgian Vincent Rijmen and Joan Daemen. AES uses 128 bit block size for encryption and decryption. Key size depends on the number of rounds. Different key size are 128 bits(10 rounds), 192 bits(12 rounds) or 256 bits(14 rounds). Each round consists of 4 basic operations known as Sub-byte(), Shift-row(), Mix-column() and Add-roundkey().AES is widely used for small devices and is less power consuming.
 
 <img width="400"  src="https://user-images.githubusercontent.com/84442255/129944469-76ecbd6d-6f00-4460-bd4c-d8f7dc92b082.png">
 
