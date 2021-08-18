@@ -52,13 +52,13 @@ Cryptography is classified into two ways :
 
 <img width="400"  src="https://user-images.githubusercontent.com/84442255/129942129-700e8b79-218c-4e6a-959d-c686a2830958.png">
 
-1)Symmetric Key cryptography : In this system, only one key is exchanged in a secure manner by both sender and receiver. AES, DES , Triple DES are examples of symmetric key cryptography.
+1) Symmetric Key cryptography : In this system, only one key is exchanged in a secure manner by both sender and receiver. AES, DES , Triple DES are examples of symmetric key cryptography.
 
-2)Asymmetric key cryptography : In this system, a pair of keys is used. A public key and a private key are used for encryption and decryption respectively. Even if an intruder knows the public key he cannot decode the information without the private key. RSA, DSS,DHA are examples of asymmetric key cryptography.
+2) Asymmetric key cryptography : In this system, a pair of keys is used. A public key and a private key are used for encryption and decryption respectively. Even    if an intruder knows the public key he cannot decode the information without the private key. RSA, DSS,DHA are examples of asymmetric key cryptography.
 
 ## Motivation and Goals
 
-Security mechanisms necessitate the requirement of a specific method for encryption and decryption, as well as for managing the sub-keys that will be used to generate cipher text from plaintext. Because the security of algorithms is directly proportional to the length of the secret key, the longer the key, the more secure the technique.If recovering the plaintext is difficult when there is a large amount of ciphertext available, an algorithm is considered to be stronger\cite{b15}.Now there are many symmetric cryptographic algorithms available so it has become difficult to choose the best one. Hence, this survey compares three different symmetric cryptographic algorithms namely AES (Advanced Encryption Standard), DES(Data Encryption Standard) and 3DES(Triple Data Encryption Standard). The comparison analysis is based on different metrics like key size, block size, performance time, number of rounds, attacks, structure of algorithm, etc. The final results are based on qualitative research done on the basis of previous works done by various researchers.
+Security mechanisms necessitate the requirement of a specific method for encryption and decryption, as well as for managing the sub-keys that will be used to generate cipher text from plaintext. Because the security of algorithms is directly proportional to the length of the secret key, the longer the key, the more secure the technique.If recovering the plaintext is difficult when there is a large amount of ciphertext available, an algorithm is considered to be stronger.Now there are many symmetric cryptographic algorithms available so it has become difficult to choose the best one. Hence, this survey compares three different symmetric cryptographic algorithms namely AES (Advanced Encryption Standard), DES(Data Encryption Standard) and 3DES(Triple Data Encryption Standard). The comparison analysis is based on different metrics like key size, block size, performance time, number of rounds, attacks, structure of algorithm, etc. The final results are based on qualitative research done on the basis of previous works done by various researchers.
 
 
 ## Methods and Investigation
@@ -96,7 +96,7 @@ The block size for DES and 3DES is same while AES uses 128 bits.
 
 The security of any algorithm is highly based on the length of key being used. In the table, it is clear that the key size of AES algorithm is high and that of DES is lesser. Hence it can be said that security of AES is far better than the other two algorithms.
 
-DES is the first symmetric encryption algorithm in 1974 by IBM and in 1976 by National Institute of Standard and Technology(NIST){\cite{b12}}. To overcome the drawbacks and attacks of DES, 3DES was developed in 1978 by IBM and in 1995 by NIST. In 1998, NIST developed a new symmetric encryption algorithm called AES.
+DES is the first symmetric encryption algorithm in 1974 by IBM and in 1976 by National Institute of Standard and Technology(NIST). To overcome the drawbacks and attacks of DES, 3DES was developed in 1978 by IBM and in 1995 by NIST. In 1998, NIST developed a new symmetric encryption algorithm called AES.
 
 The survey shows that DES and 3DES has Fiestal network structure while AES has substitution and permutation network. It also provides information on the number of rounds each algorithm performs. It is seen that DES and 3DES has fix number of rounds while round in AES depends on the key size.
 
