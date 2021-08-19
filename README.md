@@ -12,12 +12,12 @@ Email ID:- vagrawal@lakeheadu.ca
 
 1. Abstract
 2. Introduction
-3. Motivation and goals
+3. Motivation and Goals
 4. Methods 
 5. Results and Discussion
 6. Conclusion
 7. References
-8. Acknowledgment 
+8. Acknowledgement 
 
 ## Abstract
 
@@ -27,7 +27,7 @@ In this new emerging world of internet, it has become important to secure the da
 
 When someone is transmitting data over a network, there are many threats to the security and privacy of data by hackers. Billions of people around the world are using a mechanism called cryptography to secure their data or information transmitted over the network. Cryptography is one such way to protect the confidentiality  and integrity of the data. It is a greek word divided into two parts i.e. ‘crypto’ means secret and ‘graphy’ means message. This mechanism allows the data to be sent over a network in a format that is not readable by the hacker or intruder. This format can be read only by the sender and the authorized receiver. There are two concepts of cryptography namely encryption and decryption. The data is encrypted in an unreadable format known as cipher text to protect from intruders and with the help of a key an authorized receiver can obtain the data or information by decrypting the cipher text into plain text.
 
-<img width="500" alt="Screenshot 2021-08-17 at 10 50 03 PM" src="https://user-images.githubusercontent.com/84442255/129941483-c90170f5-98fe-4c5b-b6dd-4e5cf1633c55.png">
+<img width="500"  src="https://user-images.githubusercontent.com/84442255/129941483-c90170f5-98fe-4c5b-b6dd-4e5cf1633c55.png">
 
 #### Goals of Cryptography
 
@@ -124,7 +124,7 @@ This research provided a detailed study on cryptography and some symmetric encry
 [5] https://academic.csuohio.edu/yuc/security/Chapter_06_Data_Encription_Standard.pdf
 
 
-##  Acknowledgment
+##  Acknowledgement
 
 I would like to express my gratitude to my professor, Dr. Trevor M. Tomesh, who has always been my driving force behind completing the paperwork. My profound gratitude to The Management, as well as the computer science department staff at Lakehead University in Thunder Bay, Ontario, Canada, for their encouragement and motivation.
 
